@@ -1,0 +1,95 @@
+.header-coloring {
+    background-image: linear-gradient(to right, #53420a 0%,#4169e1 100%);
+    width: auto;
+    height: 756px;
+}  
+
+a{
+    text-decoration: none;
+    color: aliceblue;  
+}
+
+.header-list ul {
+    list-style: none;   /*箇条書きのポッチを消す*/
+    font-family: 'Caveat', cursive;
+    font-size: 17px;
+    height: 54px;
+    margin-top: 0;
+    margin-left: 300px;
+}
+
+.header-list ul li {
+    display: inline-block; 
+    margin-top: 10px;
+    padding: 20px;
+}
+  
+.header-image ul{
+    list-style: none;   /*箇条書きのポッチを消す*/
+    padding-top: 15px;
+    padding-left: 0px;
+}
+
+.header-image ul li{
+    display: inline-block; 
+    vertical-align: top;/*縦の表示位置も指定できる*/
+}
+
+.item-main {
+    position: relative;/*相対配置*/
+    padding-right: 205px;
+    width: 1350px;
+    height: 670px;
+    filter: brightness(0.9);  /*画像の暗さ*/
+}
+
+.first-greeting{
+    font-family: 'Courier New';
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    top: 520px;
+    left: 200px;
+}
+
+.first-greeting span{
+    font-size: 85px;
+    color: white;
+    font-weight: bold;  /*太字に*/
+    letter-spacing: 3px;
+}
+
+.item-sub {   
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.top-profile {
+    font-family: "Hannari";
+    letter-spacing: 3px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#company,.address{
+    font-size: 15px;
+    line-height: 1;
+    display:block;     /*spanタグにline-heightを効かせるためのもの*/
+    margin-top: 60px;
+}
+
+#location{
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+.address{
+    letter-spacing: 1px;
+}
+
+.tell{
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}

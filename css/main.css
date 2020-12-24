@@ -1,0 +1,67 @@
+.main {
+    font-family: 'Century Gothic';
+    letter-spacing: 3px;
+}
+.profile-coloring{
+    background-color: #e6e6fa;
+    background-position: 0px 50px;
+    width: auto;
+    height: 400px;
+}
+
+#list-first {
+    padding-top: 50px;
+    margin-left: 550px;
+}
+
+.main h2{
+    font-family: 'Caveat', cursive;
+    color: #53420a;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+#list-second{
+    margin-top: 110px;
+    margin-left: 550px;
+}
+
+.list-two-entry,.two-colum-set{
+    display: inline-block; 
+    vertical-align: top;/*縦の表示位置指定*/
+    width: 520px;
+}
+
+.sub-title{
+    font-family: 'Century Gothic';
+    color: #53420a;
+    margin-top: 3px;
+    margin-bottom: 40px;
+}
+
+.period{
+    color: #2d2d2d;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.affiliation,.text{
+    color: #808080;
+}
+
+.affiliation{
+    padding-left: 15px;
+}
+
+#list-third{
+    margin-top: 110px;
+    margin-left: 550px;
+}
+
+.text{
+    margin-top: 15px;
+}
+
+#list-fourth{
+    margin-top: 110px;
+    margin-left: 550px;
+}

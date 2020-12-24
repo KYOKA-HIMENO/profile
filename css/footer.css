@@ -1,0 +1,51 @@
+.footer-coloring {
+    background-color: #e6e6fa;
+    width: auto;
+    height: 300px;
+    margin-bottom: 0;
+}
+
+#msg{
+    font-family: 'Caveat', cursive;
+    color: #6b3f31;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.information {
+    font-family: 'Century Gothic';
+    color: #808080;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+
+
+.fotter-address{
+
+    font-size: 16px;
+    line-height: 1;
+    display:block;     /*spanタグにline-heightを効かせるためのもの*/
+    margin-top: 50px;
+    margin-left: 496px;
+}
+
+.fotter-tell{
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-left: 570px;
+}
+
+.last{
+    background-image: linear-gradient(to right, #212121 0%,#4169e1 100%);
+    width: auto;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.last p{
+    margin-top: 0;
+    padding-top: 15px;
+    font-size: 13px;
+}
